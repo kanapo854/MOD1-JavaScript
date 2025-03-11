@@ -37,30 +37,32 @@ body{
 }
 /*Cara frontal*/
 .frontal{
-    background-color: #ffffff;
+    background-color: #acabe0;
     padding: 20px;
+    border: 2px solid #491799;
 }
-.frontal img{
+.frontal img {
     border-radius: 50%;
     width: 120px;
     height: 120px;
     object-fit: cover;
     margin-bottom: 20px;
+    border: 2px solid #491799;
 }
 .frontal h2{
     font-size: 22px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 .frontal p{
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 .frontal button{
     padding: 12px 20px;
-    background-color: #4CAF50;
+    background-color: #491799;
     color: white;
     border: none;
     border-radius: 8px;
@@ -69,14 +71,15 @@ body{
     transition: background-color 0.3s ease;
 }
 .frontal button:hover {
-    background-color: #45A049;
+    background-color: #7e38ce;
 }
 /* Cara posterior*/
 .posterior{
-    background-color: #2d3e50;
+    background-color: #491799;
     color: white;
     transform: rotateY(180deg); /*coloca la parte posterioir invertida*/
     padding: 20px;
+    border: 2px solid #acabe0;
 }
 .posterior h2{
     font-size: 24px;
@@ -86,8 +89,18 @@ body{
     font-size: 16px;
     margin-bottom: 10px;
 }
+.posterior button{
+    padding: 12px 20px;
+    background-color: #acabe0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
 .posterior button:hover{
-    background-color: #0056b3;
+    background-color: #7e38ce;
 }
 /*voltear la tarjeta cuando se hace clic en Detalles*/
 .tarjeta:hover .frontal{
